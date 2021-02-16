@@ -6,3 +6,7 @@
 
 import setuptools
 setuptools.setup(setup_requires=['pbr'], python_requires='>=3.6', pbr=True)
+
+setuptools.setup(
+    include_package_data=True,
+)
